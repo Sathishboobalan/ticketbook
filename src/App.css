@@ -1,0 +1,130 @@
+
+/* Navbar */
+
+nav{
+  background-color:#333545;
+  color  : white;
+  height: 60px;
+}
+ 
+.navbar-brand{
+  height: 50px;
+  width: 50px;
+  
+}
+
+
+.less-det-card{
+  width: 300px;
+}
+.less-det-card:hover{
+  transition: 0.3s;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19) !important;
+
+}
+.company_logo{
+  height: 50%;
+  width: 50%;
+}
+.company_logo1{
+  height: 25%;
+  width: 25%;
+}
+.btn-body{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+textarea{
+  resize: none;
+}
+.imagesize{
+  height: 180px;
+  width: 200px;
+  margin-top: 10px;
+}
+.btn-content{
+  padding-top: 200px;
+  padding-left: 250px;
+}
+/* width
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+} */
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #83dcea; 
+  border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #17A2B8; 
+} */ */
+.carousel-item{
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card-des,
+.card-des1{
+  width: 30%;
+  position:absolute!important;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+.welcome-panel{
+  position: absolute;
+  top: 150px;
+  color: white;
+  text-shadow: 0 10px 10px black;
+  z-index: 1;
+  font-size: 35px;
+  left: 50%;
+  transform: translate(-50%,0px)
+}
+.card-des1{
+  width: 35%;
+  top: 0!important;
+  margin-top: -20px;
+  height: 96%;
+}
+.carousel-inner1{
+  height: 300px;
+  border-radius: 10px;
+}
+
+.carousel-items{
+  height:100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .app-content{
+    position: absolute;
+    top : 0;
+    width : 100%;
+    height:  100vh;
+    position: fixed; /* Sit on top of the page content */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  
+  }
+
+  input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance : none;
+  }
+
+

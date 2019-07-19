@@ -1,0 +1,47 @@
+{
+  "name": "ticketbook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "cryptr": "^4.0.2",
+    "image-to-base64": "^2.0.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-calendar": "^2.19.0",
+    "react-date-picker": "^7.5.1",
+    "react-datepicker": "^2.7.0",
+    "react-dom": "^16.8.6",
+    "react-google-login": "^5.0.4",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^2.1.8",
+    "react-toastify": "^5.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
